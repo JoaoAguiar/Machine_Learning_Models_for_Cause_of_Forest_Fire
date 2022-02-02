@@ -36,6 +36,11 @@ The attributes, of the fires2015_train.csv, have information regarding the fores
 * village_veget_area
 * total_area
 * cause_type
+* intentional_cause
+* max_temperature
+* min_temperature
+* avg_temperature
+* precipitation
 
 ## Future Work
 In order to further improve our work, we would like to do more experiments, try more algorithms, more variables and more configurations, in particular we would like to explore Artificial Neural Networks.
