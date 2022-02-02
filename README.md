@@ -1,5 +1,5 @@
 # Machine Learning Models for Cause of Forest Fire
-> Multiple machine learning models that make their predictions about the causes of the various forest fires in Portugal in 2015
+> Multiple Machine Learning Models that make their predictions about the cause type (intentional or non-intentional) of the various forest fires in Portugal between 2014 and 2015
 
 ## About
 Forest fires are a very important issue that negatively affects climate change. Typically, the causes of forest fires are those oversights, accidents and negligence committed by individuals, intentional acts and natural causes. The latter is the root cause for only a minority of the fires.
@@ -10,7 +10,7 @@ Data mining techniques can help in the prediction of the cause of the fire and, 
 
 The ICFN - Nature and Forest Conservation Institute has the record of the list of forest fires occurred in Portugal for several years. In the file fires2015_train.csv, you have data on reported forest fires during 2015, for which the cause is known.
 
-The goal of this is to find and build the most suitable machine learning model to predict the cause type of a forest fire in Portugal.
+The goal of this is to find and build the most suitable machine learning model to predict the cause type (intentional or non-intentional) of a forest fire in Portugal.
 
 ## Attributes
 The attributes, of the fires2015_train.csv, have information regarding the forest fire’s alarm point and the total affected area:
@@ -37,9 +37,5 @@ The attributes, of the fires2015_train.csv, have information regarding the fores
 * total_area
 * cause_type
 
-## Conclusion 
-The best results were obtained by the Random Forest model, with an accuracy of about 62%. These results could have been better, at least 10%, if we had included the additional weather information, but in general, it is still a somewhat reliable forecasting method. 
-
-The other models had an accuracy of:
-* KNN: 60%
-* Naive Bayes: 44% 
+## Future Work
+In order to further improve our work, we would like to do more experiments, try more algorithms, more variables and more configurations, in particular we would like to explore Artificial Neural Networks.
